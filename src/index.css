@@ -13,3 +13,9 @@ body {
 .App {
   height: 100%;
 }
+
+@font-face {
+  font-family: "McLetters";
+  src: local("McLetters"), url("./assets/Mcletters.ttf") format("truetype");
+  font-weight: bold;
+}

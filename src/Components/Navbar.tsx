@@ -12,7 +12,7 @@ const Navbar = () => {
       <AppBar sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar>
           <Typography
-            variant="h6"
+            variant="h5"
             component="a"
             href="#"
             onClick={() => {
@@ -21,14 +21,14 @@ const Navbar = () => {
             sx={{
               mr: 2,
               display: { md: "flex" },
-              fontFamily: "monospace",
-              fontWeight: 700,
+              fontFamily: "McLetters",
+              fontWeight: 800,
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
             }}
           >
-            Monix Fridge Edition (Remaster)
+            Monix
           </Typography>
         </Toolbar>
       </AppBar>
