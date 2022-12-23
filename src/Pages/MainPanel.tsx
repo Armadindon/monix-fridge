@@ -5,7 +5,11 @@ import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useAppDispatch } from "../hook";
 import { addSnackbarMessage, changePage } from "../Model/ApplicationSlice";
-import { clearToken, getAuthenticatedUser, setAuthenticatedUser } from "../Model/UserSlice";
+import {
+  clearToken,
+  getAuthenticatedUser,
+  setAuthenticatedUser,
+} from "../Model/UserSlice";
 import sendApiRequest from "../Model/WebApi";
 import { ReactComponent as MonixCoin } from "./../assets/monixcoin.svg";
 import config from "../config";
